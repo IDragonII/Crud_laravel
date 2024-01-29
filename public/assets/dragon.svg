@@ -1,0 +1,27 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+    <style type="text/css">
+        .dragon-body {
+            fill: #8B4513; /* Marrón para el cuerpo del dragón */
+        }
+
+        .dragon-eyes {
+            fill: #FF0000; /* Rojo para los ojos del dragón */
+        }
+
+        .dragon-wing {
+            fill: #00FFFF; /* Cian para las alas del dragón */
+        }
+    </style>
+    <g>
+        <!-- Cuerpo del dragón -->
+        <ellipse class="dragon-body" cx="100" cy="120" rx="40" ry="30"/>
+
+        <!-- Ojos del dragón -->
+        <circle class="dragon-eyes" cx="80" cy="110" r="5"/>
+        <circle class="dragon-eyes" cx="120" cy="110" r="5"/>
+
+        <!-- Alas del dragón -->
+        <polygon class="dragon-wing" points="60,90 20,40 60,60"/>
+        <polygon class="dragon-wing" points="140,90 180,40 140,60"/>
+    </g>
+</svg>
